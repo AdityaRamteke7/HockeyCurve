@@ -1,0 +1,92 @@
+.task-item {
+    background-color: #CFD8DC;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.task-item.expanded {
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-priority {
+ 
+}
+
+.task-header h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #004d40;
+}
+
+.task-header .priority {
+    color: black;
+    font-size: large;
+    position: relative;
+    right: 1%;
+}
+
+.priority.high {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #B71C1C;
+}
+
+.priority.medium {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FF6F00;
+}
+
+.priority.low {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1E88E5;
+}
+
+.task-details {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.task-details p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #004d40;
+}
+
+.task-details p span {
+    font-weight: bold;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.task-buttons button {
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.task-buttons button:hover {
+    background-color: #004d40;
+}
