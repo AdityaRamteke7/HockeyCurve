@@ -1,3 +1,57 @@
+.app {
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode-toggle {
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #004d40;
+}
+
+.dark-mode {
+    background-color: #263238;
+    color: #ECEFF1;
+}
+
+
+.dark-mode .task-item {
+    background-color: #37474F;
+}
+
+.dark-mode .task-header h3 {
+    color: #ECEFF1;
+}
+
+.dark-mode .task-details p {
+    color: #B0BEC5;
+}
+
+.dark-mode .task-buttons button {
+    background-color: #00897B;
+}
+
+.dark-mode .task-buttons button:hover {
+    background-color: #004d40;
+}
+
+.task-item,
+.task-header h3,
+.task-details p,
+.task-buttons button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .task-list-container {
     background-color: #F3F3F3;
     padding: 30px;
